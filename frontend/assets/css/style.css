@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.video_player {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+@media only screen and (min-width: 500px) {
+  .video_player {
+    max-height: 500px;
+  }
+}

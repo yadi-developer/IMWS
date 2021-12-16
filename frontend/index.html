@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="./assets/css/bstsrap.slate.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/style.css"
+      type="text/css"
+      media="all"
+    />
+
+    <!--JavaScript-->
+    <script defer src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script defer src="./assets/js/axios.min.js"></script>
+    <script defer src="./assets/js/script.js"></script>
+
+    <title>IWMS! Indonesian World Music Studios</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">IWMS!</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./upload.html">Upload</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--/.navbar-->
+
+    <!--content-->
+    <div class="container">
+      <div class="wrapper" style="width: 100%">
+        <div class="card my-3 mx-auto">
+          <!--<img src="" class="card-img-top video" alt="" />-->
+          <div class="video mx-auto pt-3">
+            <video
+              src="./assets/media/syekh.mp4"
+              preload="metadata"
+              controls
+              class="video_player"
+            >
+              Your browser doesnt support video tag!
+            </video>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title name text-primary">Yadi</h3>
+            <p class="card-text title">
+              Elit sapiente facere mollitia aliquid dolores. Soluta?
+            </p>
+            <p class="card-text style text-secondary">
+              Styles : Edgy, Jedag jedug
+            </p>
+            <div class="sosmed"></div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <span class="viewer text-info">Dilihat : 10x</span>
+            </li>
+          </ul>
+          <div class="card-body text-end">
+            <button class="btn btn-success">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
